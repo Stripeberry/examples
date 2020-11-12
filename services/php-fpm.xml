@@ -1,0 +1,8 @@
+<service>
+    <id>php7.3</id>
+    <name>php7.3</name>
+    <description>This php-cgi service</description>
+    <executable>c:\path\to\php7.3\php-cgi.exe</executable>
+    <arguments>-b 127.0.0.1:9073</arguments>
+    <stopexecutable>c:\path\to\php7.3\php-cgi.exe</stopexecutable>
+</service>
